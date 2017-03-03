@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	    $("button").click(function(){
+	        $.getJSON("https://api.github.com/users/btforsythe", function(data) {
+	        	var $info = $("#info");
+	        	$info.html("");
+	        	for (var attr in data) {
+	        		$info.append(buildDiv(attr, data[attr]));
+	        	}
+	        });
+	    });
+	});
+	function buildDiv(attr, value) {
+		// could also have done this since methods return the element (fluent interface):
+		// return $("<div />").text(attr + ": " + value);
+		var $newDiv = $("<div />");
+		$newDiv.text(attr + ": " + value);
+		return $newDiv;
+	}
+	</script>
+</head>
+<body>
+	<div id="info"><i>Press the button below to retrieve GitHub info.</i></div>
+	<button>Get GitHub info</button>
+</body>
+</html>

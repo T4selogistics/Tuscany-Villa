@@ -1,0 +1,119 @@
+
+h2{
+	font-family: 'Allura', cursive;
+}
+.navbar {
+		margin-bottom: 50px;
+		border-radius: 0;
+	}
+.jumbotron {
+		margin-bottom: 0;
+	}
+.navbar-nav{
+		text-align: center;
+	}
+.navbar-nav li {
+		padding-right: 140px;
+	}
+	background-color: #f2f2f2;
+	padding: 25px;
+	}
+.bannerPic {
+	padding-right: 15px;
+	 height: 350px;
+	 background-image: url("Tuscany-VillasPanoramicView-sant-anna.jpg");
+	 background-repeat: no-repeat;
+	}
+.picOne-A {
+	color: white; 
+	text-align: center; 
+	font-size: 30px;">FEEL LIKE HOME AWAY FROM HOME<br>
+}
+.bannerMap.Pic {
+	height: 348px; 
+	background-image: url(TuscanyVillaMapVersilia.jpg);
+	background-repeat: no-repeat;
+}
+.picTwo-A {
+	color: white; 
+	text-align: center; 
+	font size: 60px;">FIND YOUR<br>TUSCANY VILLA<
+}
+.picThree {
+	font-size: 25px;" id="picThree">SOME<
+}
+.picThree-A {
+	font-size: 20px; >YOUR DREAMS; OUR JOB<
+}
+.lobbyPic {
+	height: 350px; 
+	background-image: url(TuscanyVillaLobby-Rucellai-Toscani-2750-2-348x348.jpg);
+	background-repeat: no-repeat;
+}
+.patioPic {
+	height: 350px; 
+	background-image: url(TuscanyVillaBreakfastPatio-Vanna-231-348x348.jpg);
+	background-repeat: no-repeat;
+}
+.patioPic-2 {
+	height: 350px; 
+	background-image: url(TuscanyVillaBreakfastPatio-Vanna-231-348x348.jpg);
+	background-repeat: no-repeat;
+}
+.nightPic {
+	height: 350px; 
+	background-image: url(TuscanyVillaNighttime.jpg);
+	background-repeat: no-repeat;
+}
+.picEight-A {
+	font-size: 25px; id="picEight-A">We offer an exclusive<
+}
+.button {
+	>LEARN MORE<
+}
+.brPic {
+	height: 350px; 
+	background-image: url(TuscanyVillaBR.jpg);
+	background-repeat: no-repeat;
+}
+.picNine {
+	font-size: 20px; >WHY US<
+}
+.picNine-A {
+	font-size: 20px; >Windows of Tuscany is a brand< 
+}
+.button {
+	>LEARN MORE<
+}
+.picTen {
+	>SPEAK WITH OUR EXPERTS<
+}
+.picTen-A {
+	>Our highly qualified personnel<
+}
+.eveningPic {
+	height: 340px; 
+	background-image: url(TuscanyVillaTartufo_020_In_Evening_Sun.jpg);
+	background-repeat: no-repeat;
+}
+.pickTwelve {
+	background-color: rgb(24, 216, 255); height: 348px;">
+        <div><p style="font-size: 25px >OUR CLIENTS<
+ }
+ .picTwelve-A {
+ 	font-size: 25px >248<
+ }
+ .picTwelve-B {
+ 	font-size: 25px >GUEST REVIEWS<
+ }
+ .picTwelve-C {
+ 	>4.7/5.0<
+ }
+ .button {
+ 	>READ ALL REVIEWS<
+ }
+.adBox {
+	height: 250px; 
+	background-image: url(TuscanyVillaAdbox_partners.png);
+	background-repeat: no-repeat;
+}
